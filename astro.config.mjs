@@ -14,7 +14,7 @@ export default defineConfig({
     components: {
       // 重写默认的 `TwoColumnContent` 组件。
       TwoColumnContent: './src/components/TwoColumn.astro',
-      Footer: './src/components/Footer.astro'
+      Footer: './src/components/Footer.astro',
     },
 
     logo: {
