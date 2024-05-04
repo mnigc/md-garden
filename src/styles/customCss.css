@@ -1,0 +1,37 @@
+/* 字体家族. */
+:root{
+	--sl-font:system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue"``, "Segoe UI"``, Helvetica``, Arial``, "PingFang SC"``, "Microsoft YaHei"``, "WenQuanYi Micro Hei"``, sans-serif``;
+	--__sl-font-mono: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue"``, "Segoe UI"``, Helvetica``, Arial``,"PingFang SC"``, "Microsoft YaHei"``, "WenQuanYi Micro Hei"``, sans-serif``;
+}
+
+/* Dark mode colors. */
+/* Dark mode colors. */
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #002b26;
+	--sl-color-accent: #007b70;
+	--sl-color-accent-high: #88dbce;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eeeded;
+	--sl-color-gray-2: #c2c2c1;
+	--sl-color-gray-3: #8c8b8a;
+	--sl-color-gray-4: #595857;
+	--sl-color-gray-5: #393837;
+	--sl-color-gray-6: #272726;
+	--sl-color-black: #181818;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #a9e5db;
+	--sl-color-accent: #007d72;
+	--sl-color-accent-high: #003b35;
+	--sl-color-white: #181818;
+	--sl-color-gray-1: #272726;
+	--sl-color-gray-2: #393837;
+	--sl-color-gray-3: #595857;
+	--sl-color-gray-4: #8c8b8a;
+	--sl-color-gray-5: #c2c2c1;
+	--sl-color-gray-6: #eeeded;
+	--sl-color-gray-7: #f6f6f6;
+	--sl-color-black: #ffffff;
+}
