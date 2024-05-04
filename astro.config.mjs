@@ -11,11 +11,6 @@ export default defineConfig({
     social: {
       github: 'https://github.com/mnigc'
     },
-    components: {
-      // 重写默认的 `TwoColumnContent` 组件。
-      TwoColumnContent: './src/components/TwoColumn.astro',
-      Footer: './src/components/Footer.astro',
-    },
 
     logo: {
       src: './src/assets/my-logo.svg'
