@@ -21,16 +21,6 @@
 }
 
 /* 侧边栏 */
-.astro-3ii7xxms{
-	line-height: 1.6; /*行高高些*/
-	overflow:hidden; /*超出的文本隐藏*/
-	text-overflow:ellipsis; /*溢出用省略号显示*/
-	white-space:nowrap; /*溢出不换行*/
-}
-.astro-3ii7xxms:hover {
-	overflow: visible; /* 鼠标悬停时显示全部内容 */
-	white-space: normal; /* 恢复文字的自然换行 */
-	}
 
 ::-webkit-scrollbar
 	{
