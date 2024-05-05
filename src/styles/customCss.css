@@ -35,12 +35,12 @@
 ::-webkit-scrollbar
 	{
 		width: 6px; /* 滚动条宽度 */
-		background-color: #ffffff; /* 滚动条背景颜色 */
+		background-color: var(--sl-color-gray-7); /* 滚动条背景颜色 */
 	}
 ::-webkit-scrollbar-thumb
 	{
 		border-radius: 10px;
-		background-color: #e4e4e4 !important; /* 滚动条颜色 */
+		background-color: var(--sl-color-gray-5); /* 滚动条颜色 */
 	}
 
 .hero{
