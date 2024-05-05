@@ -1,24 +1,39 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Hello,World!👋
+description: 欢迎来我的博客.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 开始对什么感兴趣就喜欢在这方面钻研！目前正在学前端！希望不断能够鞭策自己，日拱一卒！一起学习进步！
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/index-img.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 开始浏览吧
+      link: /个人中心/我的简历/
       icon: right-arrow
-      variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+      variant: secondary
+    - text: 以往的数字花园
+      link: https://mnigc.netlify.app
+      icon: right-arrow
+      variant: secondary
 ---
-
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
+<hr/>
+有四年 `UI 设计师` 相关经验，现在是 `产品经理`，在现企业内部转岗，目前正在努力学习前端知识。
+
 ## Next steps
+
+<CardGrid>
+  <Card title="恒星">
+    天狼星、织女星、参宿四
+  </Card>
+  <Card title="卫星" icon="moon">
+    木卫一、木卫二、木卫三
+  </Card>
+  <Card title="恒星" icon="star">
+    天狼星、织女星、参宿四
+  </Card>
+</CardGrid>
 
 <CardGrid stagger>
 	<Card title="Update content" icon="pencil">

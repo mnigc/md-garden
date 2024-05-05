@@ -1,11 +1,71 @@
-/* 字体家族. */
+/* 适合中文的字体家族. */
 :root{
 	--sl-font:system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue"``, "Segoe UI"``, Helvetica``, Arial``, "PingFang SC"``, "Microsoft YaHei"``, "WenQuanYi Micro Hei"``, sans-serif``;
 	--__sl-font-mono: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue"``, "Segoe UI"``, Helvetica``, Arial``,"PingFang SC"``, "Microsoft YaHei"``, "WenQuanYi Micro Hei"``, sans-serif``;
 }
 
-/* Dark mode colors. */
-/* Dark mode colors. */
+/* 修改内容区列宽 */
+.lg\:sl-flex{
+	display: flex;
+	justify-content: space-between;
+}
+.right-sidebar-container{
+	width: 20em;
+}
+@media (max-width: 72rem) {
+	.right-sidebar-container {
+		order: 2;
+		position: relative;
+		width: auto;
+	}
+}
+
+/* 侧边栏调整 */
+.astro-3ii7xxms{
+	line-height: 1.6; /*行高高些*/
+	overflow:hidden; /*超出的文本隐藏*/
+	text-overflow:ellipsis; /*溢出用省略号显示*/
+	white-space:nowrap; /*溢出不换行*/
+}
+.astro-3ii7xxms:hover {
+	overflow: visible; /* 鼠标悬停时显示全部内容 */
+	white-space: normal; /* 恢复文字的自然换行 */
+	}
+
+.hero{
+	padding-block: 0px; /* hero 高度不要那么高 */
+}
+
+.card{
+	border-radius: 0.4em; /* 卡片圆角 */
+}
+
+aside{
+	border-radius: 0.4em; /* 提示框圆角 */
+}
+
+code{
+border-radius: 3px; /* 代码块圆角 */
+}
+
+a{
+	text-decoration: none; /* 去掉超链接下划线 */
+}
+
+.sl-link-card{
+	box-shadow: none !important; /* 取消卡片阴影 */
+}
+
+blockquote{
+	border-inline-start: 2px solid var(--sl-color-gray-5) !important; /* 引用块左边框 */
+	p{
+		color: var(--sl-color-gray-3) !important; /* 引用块文字颜色 */
+	}
+	ol, li {
+		color: var(--sl-color-gray-3) !important; /* 引用块列表颜色 */
+	}
+}
+
 /* Dark mode colors. */
 :root {
 	--sl-color-accent-low: #002b26;
@@ -13,7 +73,7 @@
 	--sl-color-accent-high: #88dbce;
 	--sl-color-white: #ffffff;
 	--sl-color-gray-1: #eeeded;
-	--sl-color-gray-2: #c2c2c1;
+	--sl-color-gray-2: #e6e4e4;
 	--sl-color-gray-3: #8c8b8a;
 	--sl-color-gray-4: #595857;
 	--sl-color-gray-5: #393837;
@@ -27,7 +87,7 @@
 	--sl-color-accent-high: #003b35;
 	--sl-color-white: #181818;
 	--sl-color-gray-1: #272726;
-	--sl-color-gray-2: #393837;
+	--sl-color-gray-2: #1f1f1e;
 	--sl-color-gray-3: #595857;
 	--sl-color-gray-4: #8c8b8a;
 	--sl-color-gray-5: #c2c2c1;
