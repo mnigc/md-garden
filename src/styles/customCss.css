@@ -20,7 +20,7 @@
 	}
 }
 
-/* 侧边栏调整 */
+/* 侧边栏 */
 .astro-3ii7xxms{
 	line-height: 1.6; /*行高高些*/
 	overflow:hidden; /*超出的文本隐藏*/
@@ -30,6 +30,17 @@
 .astro-3ii7xxms:hover {
 	overflow: visible; /* 鼠标悬停时显示全部内容 */
 	white-space: normal; /* 恢复文字的自然换行 */
+	}
+
+::-webkit-scrollbar
+	{
+		width: 6px; /* 滚动条宽度 */
+		background-color: #ffffff; /* 滚动条背景颜色 */
+	}
+::-webkit-scrollbar-thumb
+	{
+		border-radius: 10px;
+		background-color: #e4e4e4 !important; /* 滚动条颜色 */
 	}
 
 .hero{
