@@ -9,8 +9,8 @@ export default defineConfig({
   integrations: [
     overrideIntegration(),
     starlight({
-    title: '不知名角落',
-    favicon: './src/assets/my-logo.svg',
+    title: 'Ghost',
+    favicon: './src/assets/my-logo.png',
     plugins: [starlightImageZoom()],
     social: {
       github: 'https://github.com/mnigc'

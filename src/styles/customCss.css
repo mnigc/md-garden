@@ -10,7 +10,10 @@
 	justify-content: space-between;
 }
 .right-sidebar-container{
-	width: 20em;
+	width: 22em;
+	.sl-container>starlight-toc>nav>ul>li,a{
+		line-height: 1.2; /* 右侧页面内导航行高 */
+	}
 }
 @media (max-width: 72rem) {
 	.right-sidebar-container {
@@ -49,6 +52,12 @@ code{
 border-radius: 3px; /* 代码块圆角 */
 }
 
+h2{
+	border-bottom: 1px solid var(--sl-color-gray-6);
+    padding-bottom: 1rem;
+	margin-bottom: 1.5rem;
+}
+
 a{
 	text-decoration: none; /* 去掉超链接下划线 */
 }
@@ -65,6 +74,10 @@ blockquote{
 	ol, li {
 		color: var(--sl-color-gray-3) !important; /* 引用块列表颜色 */
 	}
+}
+
+.sidebar-content>ul>li,a{
+	line-height: 1.8; /* 侧边栏目录行高 */
 }
 
 /* Dark mode colors. */
