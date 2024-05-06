@@ -2,10 +2,13 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mdx from "@astrojs/mdx";mdx()
 import starlightImageZoom from 'starlight-image-zoom';
+import overrideIntegration from "./src/overrideIntegration.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [starlight({
+  integrations: [
+    overrideIntegration(),
+    starlight({
     title: '不知名角落',
     favicon: './src/assets/my-logo.svg',
     plugins: [starlightImageZoom()],
