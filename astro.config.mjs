@@ -29,7 +29,7 @@ export default defineConfig({
 
     lastUpdated: true, // 开启最近更新时间
 
-    pagination: false, // 关闭分页功能
+    pagination: false, // 关闭分页组件
 
     tableOfContents: {
       minHeadingLevel: 2, maxHeadingLevel: 6,
@@ -37,7 +37,13 @@ export default defineConfig({
 
     customCss: [
     // 自定义 CSS 文件的相对路径
-    './src/styles/customCss.css']  
+    './src/styles/customCss.css'],
+
+    components: {
+      // 将自定义feelback组件映射到 Astro page 组件。
+      Pagination: './src/components/PrevNextLinks.astro',
+    },
+
   }), 
  ]
 });

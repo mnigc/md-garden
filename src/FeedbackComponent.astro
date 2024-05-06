@@ -2,13 +2,14 @@
 import FeelbackTaggedMessage from "astro-feelback/components/FeelbackTaggedMessage.astro";
 import "astro-feelback/styles/feelback.css";
 
-const CONTENT_SET_ID = "$content-set-id-from-panel";
+
+const CONTENT_SET_ID = "be98f97d-2b83-44df-b4ac-a199ee53dc0f";
 ---
 
 <FeelbackTaggedMessage
     contentSetId={CONTENT_SET_ID}
     preset="evaluation"
-    title="Was this page useful?"
+    title="这篇文章对你有用吗?"
     layout="reveal-message"
     style={["bordered", "align-center"]}
     withEmail
@@ -17,7 +18,7 @@ const CONTENT_SET_ID = "$content-set-id-from-panel";
 <style is:global>
     .feelback-container {
         margin: 0 auto 3rem;
-        --max-width: 400px !important;
+        /* --max-width: 400px !important; */
     }
 
     .feelback-container [data-feelback-type="button-group"] .feelback-btn {
@@ -51,7 +52,7 @@ const CONTENT_SET_ID = "$content-set-id-from-panel";
         background-color: var(--sl-color-text-accent);
         font-weight: bold;
     }
-    .feelback-container .feelback-btn[type="submit"]:hover {
+    /* .feelback-container .feelback-btn[type="submit"]:hover {
         background-color: hsl(var(--sl-hue-accent), 80%, 70%);
-    }
+    } */
 </style>
