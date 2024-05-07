@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [
     starlight({
     title: '',
-    favicon: './public/my-logo.svg',
+    favicon: './public/my-logo.ico',
     plugins: [starlightImageZoom()],
     social: {
       github: 'https://github.com/mnigc'
@@ -22,7 +22,7 @@ export default defineConfig({
     locales: {
       root: {
         label: '简体中文',
-        lang: 'zh-CN'
+        lang: 'zh-CN',
       }
     },
 
