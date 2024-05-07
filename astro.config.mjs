@@ -6,7 +6,6 @@ import starlightImageZoom from 'starlight-image-zoom';
 // https://astro.build/config
 export default defineConfig({
   integrations: [
-    overrideIntegration(),
     starlight({
     title: '',
     favicon: './public/my-logo.svg',
