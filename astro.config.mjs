@@ -10,7 +10,7 @@ export default defineConfig({
     overrideIntegration(),
     starlight({
     title: 'Ghost',
-    favicon: './src/assets/my-logo.png',
+    favicon: './src/assets/my-logo.ico',
     plugins: [starlightImageZoom()],
     social: {
       github: 'https://github.com/mnigc'
