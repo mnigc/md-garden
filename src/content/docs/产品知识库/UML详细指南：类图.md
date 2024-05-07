@@ -13,7 +13,7 @@ UML(Unified Modeling Language)又称统一建模语言或标准建模语言，�
 
 本文主要介绍类图。
 
-## 一、概念
+## 概念
 
 类图（Class Diagrame）是描述类、接口、协作以及它们之间关系的图，用来显示系统中各个类的静态结构。
 
@@ -21,19 +21,19 @@ UML(Unified Modeling Language)又称统一建模语言或标准建模语言，�
 
 ![](https://image.woshipm.com/wp-files/2019/07/9XtgCZEEURXDME47b1tR.jpg)
 
-## 二、用途
+## 用途
 
 - 对系统的词汇建模（建立抽象系统词汇，如班级、学生）；
 - 对简单协作建模（将系统词汇中是事物协同工作的方式可视化和详述，如班级和学生的关系表示）；
 - 对逻辑数据库模式建模。
 
-## 三、类图元素
+## 类图元素
 
 在类图中，类用矩形来表示，分为3个部分：名称部分（Name）、属性部分（Attribute）和操作部分（Operation，也可称作方法）。
 
 ![](https://image.woshipm.com/wp-files/2019/07/oVjjW72M530SN5mMuAMR.png)
 
-### 1. 类名称（ClassName）
+### 类名称（ClassName）
 
 类的名称是一个文本串，分为简单名称和路径名称。简单名（single name）即单独的名称不含冒号；路径名（path name）即用类所在的包的名称作为前缀。
 
@@ -41,7 +41,7 @@ UML(Unified Modeling Language)又称统一建模语言或标准建模语言，�
 
 简单名、路径名
 
-### 2. 属性（Attribute）
+### 属性（Attribute）
 
 描述类在软件系统中代表的事物所具备的特性。UML中类属性的语法： [可见性] 属性名 [：类型] [=初始值] [{属性字符串}]，  
 如【-姓名: string】，其中[]中的部分是可选的。
@@ -70,7 +70,7 @@ UML(Unified Modeling Language)又称统一建模语言或标准建模语言，�
 
 关于属性的其他信息。
 
-### 3. 操作（Operation）
+### 操作（Operation）
 
 类的操作是对类的对象所能做的事务的抽象，相当于服务的实现。UML中类操作的语法：[可见性] 操作名 [ (参数表）] [: 返回类型] [{属性字符串}]，如【+查询( ): 歌曲】，其中[]中的部分是可选的。
 
@@ -96,7 +96,7 @@ UML(Unified Modeling Language)又称统一建模语言或标准建模语言，�
 
 绝大部分编程语言只支持一个返回值，即返回类型至多一个。
 
-### 4. 接口（Interface）
+### 接口（Interface）
 
 接口是指类或组件所提供的、可以完成特定功能的一组操作的集合。接口描述了类或组件的对外的、可见的动作，通常一个类实现一个或多个接口。
 
@@ -104,7 +104,7 @@ UML(Unified Modeling Language)又称统一建模语言或标准建模语言，�
 
 对于一些小程序，一般不需要接口，因为功能的改动对整体的影响不大；但对于大的程序，一旦用户需求对功能进行变动，而功能之间的耦合度高的话就会对整个程序造成影响，而如果使用接口的话，就能在使用之前就想好它要实现的全部功能，即功能的封装。之后需求变化只需要重新写实现类，同样其他人只需要调用接口，不需要知道类的消息。
 
-### 5. 关系（Ralationship）
+### 关系（Ralationship）
 
 **（1） 依赖（Dependency）关系**
 
@@ -136,13 +136,13 @@ UML(Unified Modeling Language)又称统一建模语言或标准建模语言，�
 
 ![](https://image.woshipm.com/wp-files/2019/07/6epU1xZDQZeARPDC3erv.png)
 
-## 四、连接关系图形小结
+## 连接关系图形小结
 
 由于连接关系之间使用的图形较为相似，基本由箭头和直线组成，容易混淆，在此进行总结，以便查看。
 
 ![](https://image.woshipm.com/wp-files/2019/07/KarulUQZ0mvv9UP0yUll.png)
 
-## 五、小练习——简易听歌系统类图
+## 小练习——简易听歌系统类图
 
 ![](https://image.woshipm.com/wp-files/2019/07/mEMJrfB0hfLS1VPudkzs.png)
 
