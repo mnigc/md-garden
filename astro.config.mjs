@@ -9,7 +9,7 @@ export default defineConfig({
   integrations: [
     overrideIntegration(),
     starlight({
-    title: 'Ghost',
+    title: '',
     favicon: './public/my-logo.svg',
     plugins: [starlightImageZoom()],
     social: {
@@ -17,7 +17,8 @@ export default defineConfig({
     },
 
     logo: {
-      src: './public/my-logo.svg'
+      light: './src/assets/light-logo.svg',
+      dark: './src/assets/dark-logo.svg',
     },
     
     locales: {
@@ -38,12 +39,6 @@ export default defineConfig({
     customCss: [
     // 自定义 CSS 文件的相对路径
     './src/styles/customCss.css'],
-
-    components: {
-      // 将自定义feelback组件映射到 Astro page 组件。
-      Pagination: './src/components/PrevNextLinks.astro',
-    },
-
   }), 
  ]
 });
