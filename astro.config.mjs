@@ -2,7 +2,6 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mdx from "@astrojs/mdx";mdx()
 import starlightImageZoom from 'starlight-image-zoom';
-import overrideIntegration from "./src/overrideIntegration.mjs";
 
 // https://astro.build/config
 export default defineConfig({
