@@ -52,7 +52,7 @@ code{
 border-radius: 3px; /* 代码块圆角 */
 }
 
-h1, h2, h3 {
+h2, h3 {
 	border-bottom: 1px solid var(--sl-color-gray-6);
     padding-bottom: 8px;
 	margin-bottom: 1.5rem;
