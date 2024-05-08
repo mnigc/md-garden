@@ -12,48 +12,48 @@ hero:
       link: get-started/
       icon: right-arrow
       variant: primary
-    - text: 之前的博客
+    - text: 之前的数字花园
       link: https://mdgarden.netlify.app
       icon: right-arrow
       variant: secondary
 ---
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard, } from '@astrojs/starlight/components';
 
 ## 关于我
-有四年 `UI 设计` 相关经验，现在是 `产品经理`，在现公司内部转岗，目前正在努力学习前端知识。\
+2022年已定居杭州良渚，之前是 UI 设计师，现在是产品经理，在现公司内部转岗，因为工作的原因，零零散散学了一些别的技能，
+比如视频剪辑、平面设计、物料设计、甚至建模等。目前正在努力学习前端知识，因为自己时不时会有一些想法想要去实现。\
 \
-🏷️ 个人标签：`前 UX Designer` `产品经理` `前端学习` `开源爱好者` `摄影爱好者` `数码科技爱好者` `华为全家桶` `G-shock 爱好者` \
+目前以及做出的产品有：“我的G表”、“~今天吃什么~(已经停止运营)”，其中“我的G表”是面向 G-shock 用户推出的查询手表生产日期和生产地的简单的微信小程序，
+目前已经积累了3000+用户，获得 **5.0分** 的好评。\
 \
-📧 联系我：`邮箱：mnisgc@163.com` `微信：club_60`\
+💼 工作标签：`前 UX Designer` `产品经理` `前端学习` `视频剪辑` `国企`\
 \
-📱 常看APP：`IT之家` `酷安` `36KR`
+👨‍💻 个人标签：`开源爱好者` `摄影爱好者` `数码科技爱好者` `华为全家桶` `G-shock 爱好者` `🍸调酒爱好者` `🍼奶爸` \
+\
+📧 网上地址：`邮箱：mnisgc@163.com` `微信：club_60`\
+\
+📲 常看 APP：`IT之家` `酷安` `36KR` `学习强国（`
 
 ## 知识库
-
 <CardGrid>
-  <Card title="恒星" icon="moon">
-    天狼星、织女星、参宿四
+  <Card title="产品知识点" icon="moon">
+    [分享产品方法论，有网上转载和自己经验](get-started/)
   </Card>
-  <Card title="卫星" icon="moon">
-    木卫一、木卫二、木卫三
+  <Card title="设计实战" icon="moon">
+    [工作中实际应用到的功能设计，交互设计等](get-started/)
   </Card>
-  <Card title="恒星" icon="star">
-    天狼星、织女星、参宿四
+  <Card title="产品常用工具" icon="star">
+    [工作中常用到的工具，网站等等，磨刀不误砍柴工](get-started/)
+  </Card>
+  <Card title="产品常用工具" icon="star">
+    [工作中常用到的工具，网站等，磨刀不误砍柴工](get-started/)
   </Card>
 </CardGrid>
 
-## Next steps two
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+<LinkCard
+  title="查看所有的知识库"
+  description="查看所有的知识库和文章，希望能为大家提供一些帮助，也欢迎批评指正，互相交流。"
+  href="/get-started/"
+/>
+\
+<center>![建站支持](https://camo.githubusercontent.com/c708b90e0aecd225fd0daf33a314bcbb7e532a0206da878241d036d8247101a1/68747470733a2f2f617374726f2e626164672e65732f76322f6275696c742d776974682d737461726c696768742f74696e792e737667)</center>
