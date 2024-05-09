@@ -23,8 +23,12 @@
 	}
 }
 
-img, picture, video, canvas, svg, iframe{
-	border-radius: 8px; /* 图片圆角 */
+#starlight__on-this-page{
+	border-bottom: 0;
+}
+
+.sl-markdown-content :is(img,picture,video,canvas,svg,iframe):not(:where(.not-content *)) {
+	border-radius: 6px; /* 图片圆角 */
 }
 
 /* 侧边栏 */
