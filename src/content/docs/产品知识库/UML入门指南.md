@@ -1,8 +1,6 @@
 ---
 title: UML 入门指南
 description: 介绍了什么是UML、为什么需要UML、UML的两种类型、如何使用UML。
-sidebar: 
-  order: 2
 ---
 
 转载：[UML入门使用指南](https://www.woshipm.com/share/5901015.html)
