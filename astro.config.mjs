@@ -10,9 +10,9 @@ export default defineConfig({
     title: '',
     favicon: '/my-logo.svg',
     plugins: [starlightImageZoom()],
-    social: {
-      github: 'https://github.com/mnigc'
-    },
+    // social: {
+    //   github: 'https://github.com/mnigc'
+    // },
 
     logo: {
       light: './src/assets/light-logo.svg',
