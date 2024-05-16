@@ -49,11 +49,11 @@
 }
 
 .card{
-	border-radius: 0.4em; /* 卡片圆角 */
+	border-radius: 0.6em; /* 卡片圆角 */
 }
 
 aside{
-	border-radius: 0.4em; /* 提示框圆角 */
+	border-radius: 0.6em; /* 提示框圆角 */
 }
 
 code{
