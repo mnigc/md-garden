@@ -32,7 +32,7 @@ export default defineConfig({
 
     tableOfContents: {
       minHeadingLevel: 2, maxHeadingLevel: 6,
-    },
+    }, // 大纲显示层级
 
     customCss: [
     // 自定义 CSS 文件的相对路径

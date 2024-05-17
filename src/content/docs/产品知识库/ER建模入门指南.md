@@ -56,7 +56,7 @@ ER 模型说明
 - Enrollment 实体作为连接实体，用来描述学生和课程的注册信息，并记录注册日期。
 
 
-**购买一套课程应该怎么绘制 ER 模型**
+**课程购买绘制 ER 模型示例**
 
 ![课程系统 ER 模型](https://image.woshipm.com/wp-files/2022/01/hUq7HOnrDQIGha0RWtma.png)
 
