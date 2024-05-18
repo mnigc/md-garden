@@ -10,10 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.6.0",
-    "@astrojs/mdx": "^2.3.1",
-    "@astrojs/starlight": "^0.22.2",
-    "astro": "^4.7.1",
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/mdx": "^3.0.0",
+    "@astrojs/starlight": "^0.23.0",
+    "astro": "^4.8.6",
     "node": "^22.1.0",
     "sharp": "^0.32.6",
     "starlight-image-zoom": "^0.3.0",

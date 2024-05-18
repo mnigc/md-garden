@@ -9,6 +9,15 @@
 	display: flex;
 	justify-content: space-between;
 }
+@media (min-width: 72rem){
+	[data-has-sidebar][data-has-toc] .main-pane {
+		width: 100%;
+		.sl-container{
+			margin-inline:auto;
+		}
+	}
+} /* 内容区域宽度优化 */
+
 .right-sidebar-container{
 	width: 22em;
 	.sl-container>starlight-toc>nav>ul>li,a{
@@ -36,7 +45,7 @@
 ::-webkit-scrollbar
 	{
 		width: 6px; /* 滚动条宽度 */
-		background-color: var(--sl-color-gray-7); /* 滚动条背景颜色 */
+		background-color: var(--sl-color-gray-8); /* 滚动条背景颜色 */
 	}
 ::-webkit-scrollbar-thumb
 	{
@@ -68,6 +77,9 @@ h2, h3 {
 
 a{
 	text-decoration: none; /* 去掉超链接下划线 */
+	&:hover{
+		text-decoration: underline; /* 鼠标悬停时加下划线 */
+	}
 }
 
 .sl-link-card{
@@ -116,4 +128,8 @@ blockquote{
 	--sl-color-gray-6: #eeeded;
 	--sl-color-gray-7: #f6f6f6;
 	--sl-color-black: #ffffff;
+}
+
+:root {
+	--sl-container-width: 22rem; /* 内容区宽度 */
 }
