@@ -9,6 +9,8 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+/* 内容区域宽度优化 */
 @media (min-width: 72rem){
 	[data-has-sidebar][data-has-toc] .main-pane {
 		width: 100%;
@@ -16,14 +18,16 @@
 			margin-inline:auto;
 		}
 	}
-} /* 内容区域宽度优化 */
+} 
 
 .right-sidebar-container{
-	width: 22em;
+	width: 22em; /* 右侧边栏宽度 */
 	.sl-container>starlight-toc>nav>ul>li,a{
 		line-height: 1.2; /* 右侧页面内导航行高 */
 	}
 }
+
+/* 右侧边栏宽度优化 */
 @media (max-width: 72rem) {
 	.right-sidebar-container {
 		order: 2;
@@ -96,9 +100,9 @@ blockquote{
 	}
 }
 
-.sidebar-content>ul>li,a{
-	line-height: 1.8; /* 侧边栏目录行高 */
-}
+/* .sidebar-content>ul>li,a{
+	line-height: 1.4; //侧边栏目录行高 
+} */
 
 /* Dark mode colors. */
 :root {
