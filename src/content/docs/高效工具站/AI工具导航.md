@@ -1,5 +1,5 @@
 ---
-title: AI 工具导航.md
+title: AI 工具导航
 description: 发现优秀的 AI 工具，助力工作效率提升。
 ---
 
