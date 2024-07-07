@@ -40,5 +40,5 @@ export default defineConfig({
   }), 
  ],
  site: 'https://mnigc.netlify.app/',
-  integrations: [starlight({ title: '产品经理的博客' })],
+  integrations: [starlight({ title: 'Ghost 产品经理博客' })],
 });
