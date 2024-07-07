@@ -2,13 +2,11 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mdx from "@astrojs/mdx";mdx()
 import starlightImageZoom from 'starlight-image-zoom';
-import starlightLinksValidator from 'starlight-links-validator'
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
     starlight({
-    plugins: [starlightLinksValidator()],
     title: '',
     favicon: '/my-logo.svg',
     plugins: [starlightImageZoom()],
