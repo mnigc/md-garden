@@ -1,6 +1,7 @@
 ---
 title: JavaScript学习笔记
 description: JavaScript学习笔记
+date: 2024-07-07
 ---
 ## 基础知识
 ### 变量
