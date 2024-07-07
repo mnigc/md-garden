@@ -38,5 +38,7 @@ export default defineConfig({
     // 自定义 CSS 文件的相对路径
     './src/styles/customCss.css'],
   }), 
- ]
+ ],
+ site: 'https://mnigc.netlify.app/',
+  integrations: [starlight({ title: '产品经理的博客' })],
 });
