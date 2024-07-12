@@ -94,16 +94,31 @@ alert( `Hello, ${name}!` ); // Hello, John!
 // 嵌入一个表达式
 alert( `the result is ${1 + 2}` ); // the result is 3
 ```
+### 交互：alert()、prompt()、confirm()
+**alert()：** \
+显示一个消息框，并等待用户点击确定按钮。
+```
+alert('Hello, world!');
+```
+弹出的这个带有信息的小窗口被称为 模态窗。“modal” 意味着用户不能与页面的其他部分（例如点击其他按钮等）进行交互，直到他们处理完窗口。在上面示例这种情况下 —— 直到用户点击“确定”按钮。
 
+**prompt()：** \
+显示一个输入框，用户可以输入文本。`prompt` 接收两个参数：提示信息和默认值。
 
-### 条件语句
-JavaScript 有三种条件语句：
-- if 语句
-- switch 语句
-- 三元运算符（条件运算符）
+`title` 显示给用户的文本 \
+`default` 可选，指定 input 框的默认值
+```
+let name = prompt('What is your name?', 'John');
+alert(`Hello, ${name}!`);
+```
+**confirm()：** \
+confirm 函数显示一个带有 question 以及确定和取消两个按钮的模态窗口。
 
+点击确定返回 true，点击取消返回 false。
+```
+let isBoss = confirm("Are you the boss?");
+alert( isBoss ); // 如果“确定”按钮被按下，则显示 true
+```
 
-### 循环语句
-JavaScript 有两种循环语句：
-- for 循环
-- while 循环
+### 类型转换
+大多数情况下，运算符和函数会自动将赋予它们的值转换为正确的类型。
