@@ -20,6 +20,10 @@
 	}
 } 
 
+.pagination-links>a{
+box-shadow: none; /* 分页去掉阴影 */	
+}
+
 .right-sidebar-container{
 	width: 22em; /* 右侧边栏宽度 */
 	.sl-container>starlight-toc>nav>ul>li,a{
@@ -81,9 +85,6 @@ h2, h3 {
 
 a{
 	text-decoration: none; /* 去掉超链接下划线 */
-	&:hover{
-		text-decoration: underline; /* 鼠标悬停时加下划线 */
-	}
 }
 
 .sl-link-card{
@@ -98,6 +99,22 @@ blockquote{
 	ol, li {
 		color: var(--sl-color-gray-3) !important; /* 引用块列表颜色 */
 	}
+}
+
+header.header{
+	background-color: var(--sl-color-black);
+	border-bottom: 1px solid var(--sl-color-gray-6); /* 顶部导航栏底部边框 */
+}
+
+/* 侧边栏背景 */
+@media (min-width: 50rem) {
+	.sidebar-pane{
+		background-color: var(--sl-color-black);
+	}
+}
+
+.content-panel{
+	border-top: 0px; /* 内容区域顶部边框 */
 }
 
 /* .sidebar-content>ul>li,a{
@@ -116,7 +133,7 @@ blockquote{
 	--sl-color-gray-4: #595857;
 	--sl-color-gray-5: #393838;
 	--sl-color-gray-6: #272626;
-	--sl-color-black: #181818;
+	--sl-color-black: #161618;
 }
 /* Light mode colors. */
 :root[data-theme='light'] {

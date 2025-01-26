@@ -10,9 +10,6 @@ export default defineConfig({
     title: '',
     favicon: '/my-logo.svg',
     plugins: [starlightImageZoom()],
-    social: {
-      github: 'https://github.com/mnigc'
-    },
 
     logo: {
       light: './src/assets/light-logo.svg',
@@ -26,9 +23,9 @@ export default defineConfig({
       },
     },
 
-    lastUpdated: true, // 开启最近更新时间
+    lastUpdated: true, // 最近更新时间
 
-    pagination: false, // 关闭分页组件
+    pagination: true, // 分页组件
 
     tableOfContents: {
       minHeadingLevel: 2, maxHeadingLevel: 6,
