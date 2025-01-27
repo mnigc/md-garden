@@ -31,6 +31,10 @@ box-shadow: none; /* 分页去掉阴影 */
 	}
 }
 
+.link-title{
+	font-size: 1.2em; /* 链接标题字体大小 */
+}
+
 /* 右侧边栏宽度优化 */
 @media (max-width: 72rem) {
 	.right-sidebar-container {
