@@ -4,6 +4,10 @@
 	--__sl-font-mono: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue"``, "Segoe UI"``, Helvetica``, Arial``,"PingFang SC"``, "Microsoft YaHei"``, "WenQuanYi Micro Hei"``, sans-serif``;
 }
 
+body{
+	font-size: 15px; /* 字体大小 */
+}
+
 /* 修改内容区列宽 */
 .lg\:sl-flex{
 	display: flex;
